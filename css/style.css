@@ -1,0 +1,87 @@
+body {
+
+    margin: 0;
+    overflow-x: hidden;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    font-size: 10vh;
+}
+
+div#firstSection {
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+video#backgroundVideo {
+    position: fixed;
+    display: block;
+    height: 100%;
+}
+
+div#content {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+a {
+    text-decoration-line: none;
+}
+
+a.Nastya {
+    color: aqua;
+    text-shadow: 0 0 1vh aqua;
+}
+
+a.I {
+    color: aquamarine;
+    text-shadow: 0 0 1vh aquamarine;
+}
+
+span.hearth {
+    color: #f5acff;
+    text-shadow: 0 0 1vh #f5acff;
+}
+
+div#playerBlock {
+    width: 400px;
+    margin-top: 3%;
+    border-radius: 10px;
+    border: #ffffff solid 1px;
+    box-shadow: 0 0 5px #ffffff;
+}
+
+div.playerButtons {
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 1vh;
+}
+
+p#songName {
+    margin: 2%;
+}
+
+svg.iconPlayer {
+    height: 100%;
+    fill: #ffffff;
+}
+
+svg.iconPlayer:hover {
+    cursor: pointer;
+    filter: drop-shadow(0 0 5px #ffffff);
+}
+
+svg#playButton {
+    height: 80%;
+}

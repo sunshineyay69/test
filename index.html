@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Relationship Timer</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="firstSection">
+    <video src="media/video/1.mp4" muted autoplay loop id="backgroundVideo"></video>
+    <div id="content">
+        <div>
+            <a target="_blank" href="https://vk.com/id579724252" class="Nastya">ТЫ</a>
+            и
+            <a target="_blank" href="https://vk.com/gggemini" class="I">Я</a>
+            <br>
+            в <span class="hearth">♥</span>
+            м <span class="hearth">♥</span>
+            е <span class="hearth">♥</span>
+            с <span class="hearth">♥</span>
+            т <span class="hearth">♥</span>
+            е
+        </div>
+        <div id="timer"></div>
+        <div id="playerBlock">
+            <p id="songName"></p>
+            <div class="playerButtons">
+                <svg id="prev" xmlns="http://www.w3.org/2000/svg" class='iconPlayer' viewBox="0 0 24 24">
+                    <g>
+                        <path d="M6 6h2v12H6zm3.5 6l8.5 6V6z"/>
+                    </g>
+                </svg>
+                <svg id="playButton" xmlns="http://www.w3.org/2000/svg" class='iconPlayer'
+                     viewBox="0 0 494.942 494.942">
+                    <g>
+                        <path d="m35.353 0 424.236 247.471-424.236 247.471z"/>
+                    </g>
+                </svg>
+                <svg id="next" xmlns="http://www.w3.org/2000/svg" class='iconPlayer' viewBox="0 0 24 24">
+                    <g>
+                        <path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/>
+                    </g>
+                </svg>
+            </div>
+            <audio src="media/audio/Imminence%20-%20Erase.mp3" id="player"></audio>
+        </div>
+    </div>
+</div>
+<script src="js/timer.js"></script>
+<script src="js/player.js"></script>
+</body>
+</html>
